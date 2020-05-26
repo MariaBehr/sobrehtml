@@ -1,0 +1,52 @@
+body {
+    font-family: "Times New Roman", serif;
+	background:#FFFAFA;
+	font-size: 120%;
+    line-height: 1.5   
+}
+
+.titulo_sobre {
+	background:	#F8F8FF;
+	border: 3px solid black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p{
+	text-align: center;
+	text-align: justify;
+	padding: 4px;
+}
+
+#img3, #img5{
+	float: right;
+	width: 25%;
+	right: 25%;
+	border: 5px solid pink;
+
+}
+
+#img2, #img4 {
+	width: 25%;
+	right: 25%;
+	border: 5px solid pink;
+}
+
+.galeria img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.rodape {
+    background-color: pink;
+    border: 2px solid black;
+    clear: both;
+	position: move;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
